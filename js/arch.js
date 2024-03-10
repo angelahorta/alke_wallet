@@ -37,17 +37,17 @@ $('#loginForm').submit(function(event) {
     var password = $('#password').val();
 
     // Verificar las credenciales
-    if (username === '1' && password === '1') {
+    if (username === 'angela.horta@gmail.com' && password === '12345') {
       // Credenciales válidas, redirigir a la pantalla de wallet
       window.location.href = 'menu.html';
     } else {
       // Credenciales inválidas, mostrar mensaje de error
       //alert('Usuario o contraseña invalido. Inténtalo de nuevo.');
-      $('#contenedor-mensaje').text('Usuario o contraseña invalido. Inténtalo de nuevo.');
+      $('#contenedor-mensaje').text('Correo o contraseña invalido. Inténtalo de nuevo.');
     }
   });
 
-  
+      
 
 
 function fechaActual(){
